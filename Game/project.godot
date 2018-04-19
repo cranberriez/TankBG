@@ -14,6 +14,10 @@ config/name="TankBG"
 run/main_scene="res://Play.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+NetworkManager="*res://src/NetworkManager.gd"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
